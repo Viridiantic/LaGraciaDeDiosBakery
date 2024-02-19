@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image with Text</title>
+    <style>
+      .container {
+        position: relative;
+        width: 500px;
+      }
+
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+      }
+
+      .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg"
+        class="image"
+        alt="Paris"
+      />
+      <div class="text">
+        <p>Paris is one of the most magnificent cities in France.</p>
+      </div>
+    </div>
+  </body>
+</html>
